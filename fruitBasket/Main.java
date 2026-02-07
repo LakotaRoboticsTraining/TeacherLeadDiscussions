@@ -11,7 +11,6 @@ public class Main {
         Apple apple = new Apple("Red", "Medium", "Sweet");
         Orange orange = new Orange("Orange", "Small", "Tangy");
 
-
         System.out.println(banana);
         System.out.println(apple);
         System.out.println(orange);
