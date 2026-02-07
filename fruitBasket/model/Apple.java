@@ -15,6 +15,18 @@ public class Apple {
         this.taste = taste;
     }
 
+    public String getSize(){
+        return this.size;
+    }
+
+    public String getColor(){
+       return this.color;
+    }
+    
+    public String getTaste(){
+      return this.taste;
+    }
+
     @Override
     public String toString(){
         return "I'm an Apple, I'm " + color + ", I'm " + size + " size, and I taste" + taste;

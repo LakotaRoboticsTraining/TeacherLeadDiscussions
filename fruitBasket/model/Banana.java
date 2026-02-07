@@ -15,6 +15,18 @@ public class Banana {
         this.taste = taste;
     }
 
+    public String getSize(){
+        return this.size;
+    }
+
+    public String getColor(){
+       return this.color;
+    }
+    
+    public String getTaste(){
+      return this.taste;
+    }
+
     @Override
     public String toString(){
         return "I'm an Banana, I'm " + color + ", I'm " + size + " size, and I taste" + taste;
