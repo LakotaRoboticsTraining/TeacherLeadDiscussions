@@ -1,34 +1,22 @@
 package fruitBasket.model;
 
-public class Banana {
-    public String color;
-    public String size;
-    public String taste;
+public class Banana extends Fruit{
 
     public Banana(){
 
     }
 
     public Banana(String color, String size, String taste){
-        this.color = color;
-        this.size = size;
-        this.taste = taste;
+        super(color, size, taste);
     }
 
-    public String getSize(){
-        return this.size;
-    }
-
-    public String getColor(){
-       return this.color;
-    }
-    
-    public String getTaste(){
-      return this.taste;
+    @Override
+    public void peel(){
+        System.out.println("You peeled me with your bare hands");
     }
 
     @Override
     public String toString(){
-        return "I'm an Banana, I'm " + color + ", I'm " + size + " size, and I taste" + taste;
+        return super.toString();
     }
 }
